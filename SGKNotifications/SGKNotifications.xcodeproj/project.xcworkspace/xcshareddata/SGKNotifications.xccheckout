@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>04B23CE9-7344-41C4-8DC6-40B5B277DCD6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SGKNotifications</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0CE2244483E2F8CEBBAE2AFA40025BFCCA4BABFA</key>
+		<string>https://github.com/For2nArtem/ioshomework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SGKNotifications/SGKNotifications.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0CE2244483E2F8CEBBAE2AFA40025BFCCA4BABFA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/For2nArtem/ioshomework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0CE2244483E2F8CEBBAE2AFA40025BFCCA4BABFA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0CE2244483E2F8CEBBAE2AFA40025BFCCA4BABFA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DZScutarenko</string>
+		</dict>
+	</array>
+</dict>
+</plist>

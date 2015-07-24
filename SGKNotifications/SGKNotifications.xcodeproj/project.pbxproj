@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E283363A1B61115700ABA23C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E28336391B61115700ABA23C /* main.m */; };
+		E283363D1B61115800ABA23C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E283363C1B61115800ABA23C /* AppDelegate.m */; };
+		E28336541B61115800ABA23C /* SGKNotificationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E28336531B61115800ABA23C /* SGKNotificationsTests.m */; };
+		E283365F1B61129F00ABA23C /* SGKGoverment.m in Sources */ = {isa = PBXBuildFile; fileRef = E283365E1B61129F00ABA23C /* SGKGoverment.m */; };
+		E28336621B615E1400ABA23C /* SGKDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = E28336611B615E1400ABA23C /* SGKDoctor.m */; };
+		E28336651B615E3700ABA23C /* SGKPensioner.m in Sources */ = {isa = PBXBuildFile; fileRef = E28336641B615E3700ABA23C /* SGKPensioner.m */; };
+		E28336681B615E4B00ABA23C /* SGKBusinessman.m in Sources */ = {isa = PBXBuildFile; fileRef = E28336671B615E4B00ABA23C /* SGKBusinessman.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E283364E1B61115800ABA23C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E283362C1B61115700ABA23C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28336331B61115700ABA23C;
+			remoteInfo = SGKNotifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E28336341B61115700ABA23C /* SGKNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGKNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28336381B61115700ABA23C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28336391B61115700ABA23C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E283363B1B61115700ABA23C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E283363C1B61115800ABA23C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E283364D1B61115800ABA23C /* SGKNotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGKNotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28336521B61115800ABA23C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28336531B61115800ABA23C /* SGKNotificationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGKNotificationsTests.m; sourceTree = "<group>"; };
+		E283365D1B61129F00ABA23C /* SGKGoverment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGKGoverment.h; sourceTree = "<group>"; };
+		E283365E1B61129F00ABA23C /* SGKGoverment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGKGoverment.m; sourceTree = "<group>"; };
+		E28336601B615E1400ABA23C /* SGKDoctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGKDoctor.h; sourceTree = "<group>"; };
+		E28336611B615E1400ABA23C /* SGKDoctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGKDoctor.m; sourceTree = "<group>"; };
+		E28336631B615E3700ABA23C /* SGKPensioner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGKPensioner.h; sourceTree = "<group>"; };
+		E28336641B615E3700ABA23C /* SGKPensioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGKPensioner.m; sourceTree = "<group>"; };
+		E28336661B615E4B00ABA23C /* SGKBusinessman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGKBusinessman.h; sourceTree = "<group>"; };
+		E28336671B615E4B00ABA23C /* SGKBusinessman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGKBusinessman.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E28336311B61115700ABA23C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E283364A1B61115800ABA23C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E283362B1B61115700ABA23C = {
+			isa = PBXGroup;
+			children = (
+				E28336361B61115700ABA23C /* SGKNotifications */,
+				E28336501B61115800ABA23C /* SGKNotificationsTests */,
+				E28336351B61115700ABA23C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E28336351B61115700ABA23C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E28336341B61115700ABA23C /* SGKNotifications.app */,
+				E283364D1B61115800ABA23C /* SGKNotificationsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E28336361B61115700ABA23C /* SGKNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				E283363B1B61115700ABA23C /* AppDelegate.h */,
+				E283363C1B61115800ABA23C /* AppDelegate.m */,
+				E283365D1B61129F00ABA23C /* SGKGoverment.h */,
+				E283365E1B61129F00ABA23C /* SGKGoverment.m */,
+				E28336601B615E1400ABA23C /* SGKDoctor.h */,
+				E28336611B615E1400ABA23C /* SGKDoctor.m */,
+				E28336631B615E3700ABA23C /* SGKPensioner.h */,
+				E28336641B615E3700ABA23C /* SGKPensioner.m */,
+				E28336661B615E4B00ABA23C /* SGKBusinessman.h */,
+				E28336671B615E4B00ABA23C /* SGKBusinessman.m */,
+				E28336371B61115700ABA23C /* Supporting Files */,
+			);
+			path = SGKNotifications;
+			sourceTree = "<group>";
+		};
+		E28336371B61115700ABA23C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E28336381B61115700ABA23C /* Info.plist */,
+				E28336391B61115700ABA23C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E28336501B61115800ABA23C /* SGKNotificationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E28336531B61115800ABA23C /* SGKNotificationsTests.m */,
+				E28336511B61115800ABA23C /* Supporting Files */,
+			);
+			path = SGKNotificationsTests;
+			sourceTree = "<group>";
+		};
+		E28336511B61115800ABA23C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E28336521B61115800ABA23C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E28336331B61115700ABA23C /* SGKNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28336571B61115800ABA23C /* Build configuration list for PBXNativeTarget "SGKNotifications" */;
+			buildPhases = (
+				E28336301B61115700ABA23C /* Sources */,
+				E28336311B61115700ABA23C /* Frameworks */,
+				E28336321B61115700ABA23C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGKNotifications;
+			productName = SGKNotifications;
+			productReference = E28336341B61115700ABA23C /* SGKNotifications.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E283364C1B61115800ABA23C /* SGKNotificationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E283365A1B61115800ABA23C /* Build configuration list for PBXNativeTarget "SGKNotificationsTests" */;
+			buildPhases = (
+				E28336491B61115800ABA23C /* Sources */,
+				E283364A1B61115800ABA23C /* Frameworks */,
+				E283364B1B61115800ABA23C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E283364F1B61115800ABA23C /* PBXTargetDependency */,
+			);
+			name = SGKNotificationsTests;
+			productName = SGKNotificationsTests;
+			productReference = E283364D1B61115800ABA23C /* SGKNotificationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E283362C1B61115700ABA23C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = SGKapp;
+				TargetAttributes = {
+					E28336331B61115700ABA23C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E283364C1B61115800ABA23C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E28336331B61115700ABA23C;
+					};
+				};
+			};
+			buildConfigurationList = E283362F1B61115700ABA23C /* Build configuration list for PBXProject "SGKNotifications" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E283362B1B61115700ABA23C;
+			productRefGroup = E28336351B61115700ABA23C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E28336331B61115700ABA23C /* SGKNotifications */,
+				E283364C1B61115800ABA23C /* SGKNotificationsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E28336321B61115700ABA23C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E283364B1B61115800ABA23C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E28336301B61115700ABA23C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28336651B615E3700ABA23C /* SGKPensioner.m in Sources */,
+				E283363D1B61115800ABA23C /* AppDelegate.m in Sources */,
+				E28336681B615E4B00ABA23C /* SGKBusinessman.m in Sources */,
+				E283365F1B61129F00ABA23C /* SGKGoverment.m in Sources */,
+				E28336621B615E1400ABA23C /* SGKDoctor.m in Sources */,
+				E283363A1B61115700ABA23C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28336491B61115800ABA23C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28336541B61115800ABA23C /* SGKNotificationsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E283364F1B61115800ABA23C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E28336331B61115700ABA23C /* SGKNotifications */;
+			targetProxy = E283364E1B61115800ABA23C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E28336551B61115800ABA23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E28336561B61115800ABA23C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E28336581B61115800ABA23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SGKNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E28336591B61115800ABA23C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SGKNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E283365B1B61115800ABA23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SGKNotificationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGKNotifications.app/SGKNotifications";
+			};
+			name = Debug;
+		};
+		E283365C1B61115800ABA23C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SGKNotificationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGKNotifications.app/SGKNotifications";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E283362F1B61115700ABA23C /* Build configuration list for PBXProject "SGKNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28336551B61115800ABA23C /* Debug */,
+				E28336561B61115800ABA23C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28336571B61115800ABA23C /* Build configuration list for PBXNativeTarget "SGKNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28336581B61115800ABA23C /* Debug */,
+				E28336591B61115800ABA23C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E283365A1B61115800ABA23C /* Build configuration list for PBXNativeTarget "SGKNotificationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E283365B1B61115800ABA23C /* Debug */,
+				E283365C1B61115800ABA23C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E283362C1B61115700ABA23C /* Project object */;
+}
